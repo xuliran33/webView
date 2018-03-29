@@ -15,6 +15,9 @@
 		174F8D5D2064994A00FA52E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 174F8D5C2064994A00FA52E0 /* main.m */; };
 		174F8D672064994A00FA52E0 /* webViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174F8D662064994A00FA52E0 /* webViewTests.m */; };
 		174F8D722064994A00FA52E0 /* webViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174F8D712064994A00FA52E0 /* webViewUITests.m */; };
+		174F8D812064C77300FA52E0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174F8D802064C77300FA52E0 /* WebKit.framework */; };
+		174F8D842064D6F500FA52E0 /* WKDekegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174F8D832064D6F500FA52E0 /* WKDekegateViewController.m */; };
+		174F8D862064E1F300FA52E0 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174F8D852064E1F300FA52E0 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		174F8D6D2064994A00FA52E0 /* webViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174F8D712064994A00FA52E0 /* webViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewUITests.m; sourceTree = "<group>"; };
 		174F8D732064994A00FA52E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174F8D802064C77300FA52E0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		174F8D822064D6F500FA52E0 /* WKDekegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKDekegateViewController.h; sourceTree = "<group>"; };
+		174F8D832064D6F500FA52E0 /* WKDekegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKDekegateViewController.m; sourceTree = "<group>"; };
+		174F8D852064E1F300FA52E0 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174F8D862064E1F300FA52E0 /* JavaScriptCore.framework in Frameworks */,
+				174F8D812064C77300FA52E0 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 				174F8D652064994A00FA52E0 /* webViewTests */,
 				174F8D702064994A00FA52E0 /* webViewUITests */,
 				174F8D4B2064994A00FA52E0 /* Products */,
+				174F8D7F2064C77300FA52E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +120,8 @@
 				174F8D582064994A00FA52E0 /* LaunchScreen.storyboard */,
 				174F8D5B2064994A00FA52E0 /* Info.plist */,
 				174F8D5C2064994A00FA52E0 /* main.m */,
+				174F8D822064D6F500FA52E0 /* WKDekegateViewController.h */,
+				174F8D832064D6F500FA52E0 /* WKDekegateViewController.m */,
 			);
 			path = webView;
 			sourceTree = "<group>";
@@ -130,6 +142,15 @@
 				174F8D732064994A00FA52E0 /* Info.plist */,
 			);
 			path = webViewUITests;
+			sourceTree = "<group>";
+		};
+		174F8D7F2064C77300FA52E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				174F8D852064E1F300FA52E0 /* JavaScriptCore.framework */,
+				174F8D802064C77300FA52E0 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174F8D842064D6F500FA52E0 /* WKDekegateViewController.m in Sources */,
 				174F8D522064994A00FA52E0 /* ViewController.m in Sources */,
 				174F8D5D2064994A00FA52E0 /* main.m in Sources */,
 				174F8D4F2064994A00FA52E0 /* AppDelegate.m in Sources */,
